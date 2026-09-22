@@ -1,0 +1,19 @@
+{
+  "data_path": "data/Manzano2022COMPAG_data_cleaned.csv",
+  "gap_path": "data/Manzano2022COMPAG_recording_gaps.csv",
+  "signals": ["Temp", "Moist"],
+  "nodes": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+  "split_gap_multiplier": 3.0,
+  "minimum_segment_records": 100,
+  "train_fraction": 0.6,
+  "validation_fraction": 0.2,
+  "threshold_multipliers": [0.5, 1.0, 1.5, 2.0, 3.0],
+  "loss_probabilities": [0.0, 0.1, 0.2, 0.3],
+  "beta_grid": [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0],
+  "seeds": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110,
+            111, 112, 113, 114, 115, 116, 117, 118, 119, 120,
+            121, 122, 123, 124, 125, 126, 127, 128, 129, 130],
+  "feedback_model": "ack",
+  "delivery_delay_minutes": 0.0,
+  "freshness_deadline_multipliers": [2.0, 3.0, 6.0]
+}
