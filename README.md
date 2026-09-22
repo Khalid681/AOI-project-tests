@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Threshold-Triggered Remote Estimation Under Packet Loss
 
 This project reproduces the loss-free random-walk baseline from *Update Rate, Accuracy, and Age of Information in a Wireless Sensor Network* and extends it with packet erasures, ACK and no-ACK feedback, receiver prediction, data-freshness metrics, and real agricultural sensor traces.
@@ -215,4 +215,4 @@ Freshness:
 =======
 # AOI-project-tests
 Python framework for threshold-triggered remote estimation under packet loss, comparing hold and drift-based estimators using AoI, freshness, communication cost, synthetic random walks, and real agricultural sensor data.
->>>>>>> 1a52315e84fe17a8ee75159ed6e9baa0c92982ae
+
